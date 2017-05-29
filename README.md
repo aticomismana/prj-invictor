@@ -29,7 +29,7 @@ Gabriel Bertolino.
 Felipe Souza,
 Gustavo Ferreira,
 Isabel Guedes,
-Thiago Nogueira **(@thiagoN13)**.
+Thiago Nogueira **[@thiagoN13](https://github.com/ThiagoN13)**.
 
 ## Equipe 4:  
 
