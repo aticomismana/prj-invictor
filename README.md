@@ -34,7 +34,7 @@ Isabel Guedes,
 ## Equipe 4:  
 
 Gabriel Arruda,
-[Ives Cruz](https://github.com/ivescruz)
+[Ives Cruz](https://github.com/ivescruz),
 João Lucas,
 Luiz Fernando,
 Marcus Vinicius.
