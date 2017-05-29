@@ -26,10 +26,10 @@ Gabriel Bertolino.
 
 ## Equipe 3:  
 
-Felipe Souza,
-Gustavo Ferreira,
-Isabel Guedes,
-Thiago Nogueira **[@thiagoN13](https://github.com/ThiagoN13)**.
+Felipe Souza,  
+Gustavo Ferreira,  
+Isabel Guedes,  
+**[Thiago Nogueira]** (https://github.com/ThiagoN13).
 
 ## Equipe 4:  
 
