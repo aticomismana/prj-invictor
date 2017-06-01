@@ -6,3 +6,11 @@
 /home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.AssemblyInfo.cs
 /home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.dll
 /home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.pdb
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\bin\Debug\netcoreapp1.1\prj-invictor.deps.json
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\bin\Debug\netcoreapp1.1\prj-invictor.runtimeconfig.json
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\bin\Debug\netcoreapp1.1\prj-invictor.runtimeconfig.dev.json
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\obj\Debug\netcoreapp1.1\prj-invictor.AssemblyInfo.cs
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\obj\Debug\netcoreapp1.1\prj-invictor.dll
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\obj\Debug\netcoreapp1.1\prj-invictor.pdb
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\bin\Debug\netcoreapp1.1\prj-invictor.dll
+C:\Users\aluno\Downloads\PortableGit\prj-invictor\source\prj-invictor\bin\Debug\netcoreapp1.1\prj-invictor.pdb

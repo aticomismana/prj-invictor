@@ -1,7 +1,7 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/geltoncruz/.nuget/packages"
+      "C:\\Users\\aluno\\.nuget\\packages"
     ]
   }
 }
