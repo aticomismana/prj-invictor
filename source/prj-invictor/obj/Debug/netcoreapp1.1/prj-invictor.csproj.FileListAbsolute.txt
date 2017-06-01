@@ -1,0 +1,8 @@
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/bin/Debug/netcoreapp1.1/prj-invictor.deps.json
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/bin/Debug/netcoreapp1.1/prj-invictor.runtimeconfig.json
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/bin/Debug/netcoreapp1.1/prj-invictor.runtimeconfig.dev.json
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/bin/Debug/netcoreapp1.1/prj-invictor.dll
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/bin/Debug/netcoreapp1.1/prj-invictor.pdb
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.AssemblyInfo.cs
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.dll
+/home/geltoncruz/GIT/INVICTOR/source/prj-invictor/obj/Debug/netcoreapp1.1/prj-invictor.pdb
