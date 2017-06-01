@@ -3,7 +3,7 @@ This is a practical project of the discipline Development Systems I (2017.1)
 
 **SENAI-CIMATEC**  
 **CAI TEC Informática (Software Development)**  
-**Teacher Gelton Cruz (@geltoncruz)**  
+**Teacher Gelton Cruz [@geltoncruz](https://github.com/geltoncruz/ "Professor Gelton Cruz") (@geltoncruz)**  
   
 **Class 51.487**  
 software51487@googlegroups.com , https://github.com/aticomismana/turma51487  
