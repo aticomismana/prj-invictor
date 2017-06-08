@@ -1,36 +1,41 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 
 namespace prj_invictor.Models
 {
-    public class SolicitacaoAmizade 
+    public class SolicitacaoAmizade
     {
-       public int user1 {get; set;}
-       public int user2 {get; set;}
-       public int status {get; set;}
+        public int User1 { get; set; }
+        public int User2 { get; set; }
+        public int Status { get; set; }
 
-       public DateTime data_solicitacao{get; set;}
+        public DateTime dataSolicitacao { get; set; }
 
-       public int Buscar_amigos (){
+        public int BuscarAmigos()
+        {
             return 0;
-       }
+        }
 
-       public int Mostrar_solicitacao (){
-                return 0;
-       }
-
-       public int Enviar_solicitacao (){
+        public int MostrarSolicitacao()
+        {
             return 0;
-       }
+        }
 
-       public int Rejeitar_solicitacao (){
-                return 0;
-       }
+        public int EnviarSolicitacao()
+        {
+            return 0;
+        }
 
-       public int Verifica_localizacao_da_campanha (){
-                return 0;
-       }
+        public int RejeitarSolicitacao()
+        {
+            return 0;
+        }
 
-
-
+        public int VerificaLocalizacaoCampanha()
+        {
+            return 0;
+        }
     }
 }
