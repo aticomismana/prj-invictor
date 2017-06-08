@@ -7,36 +7,52 @@ namespace prj_invictor.Models
 {
     public class Usuario
     {
-        protected String nome { get; set; }
-        protected String sobrenome { get; set; }
-        protected String cpf { get; set; }
-        protected List<Impedimento> impedimentos;
-        protected float peso { get; set; }
-        protected DateTime nascimento { get; set; }
-        protected char sexo { get; set; }
+        public String nome { get; set; }
+        public String sobrenome { get; set; }
+        public String cpf { get; set; }
+        public List<Impedimento> impedimentos;
+        public float peso { get; set; }
+        public DateTime nascimento { get; set; }
+        public char sexo { get; set; }
+        public int idade { get; set; }
 
-        public Boolean verificarPeso(char sexo)
+        public Boolean verificarPeso(float peso)
+        {
+            if(peso >= 50)
+            {
+                return true;
+            }else
+            {
+                return false;
+            }
+        }
+        public Boolean verificarIdade(int idade)
+        {
+            if(idade >= 16)
+            {
+                return true;
+            }else
+            {
+                return false;
+            }
+            
+        }
+
+        public Boolean verificarCpf(String cpf)
         {
             return false;
         }
-        public Boolean verificarIdade(char sexo)
+        public char verificarSexo()
         {
-            return false;
-        }
-
-        public Boolean verificarCpf()
-        {
-            return false;
-        }
-        public Boolean verificarSexo(char sexo)
-        {
-            return false;
+            return sexo;
+            
 
         }
-        public void atualizarUsuario()
+        public void atualizarUsuario(String nome, String sobrenome,List<Impedimento> impedimentos, float peso, int idade,char sexo)
         {
 
-        }
+
+    }
         public void exibirCadastroUsr()
         {
 
