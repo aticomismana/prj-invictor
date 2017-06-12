@@ -7,14 +7,18 @@ namespace prj_invictor.Models
 {
     public class Impedimento
     {
-        public string Pipo { get; set; }
+        enum Tipos
+        {
+            Gravidez,
+
+        }
         public DateTime DataOcorrencia { get; set; }
 
         public bool VerificarImpedimentosExistente(Usuario usuario)
         {
             return true;
         }
-        public void ArmazenarImpedimento(Usuario usuario)
+        public void cadastrarImpedimento(Usuario usuario)
         {
 
         }

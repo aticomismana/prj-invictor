@@ -249,7 +249,9 @@
     <Compile Include="Models\Campanha.cs" />
     <Compile Include="Models\Aptidao.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Roteiro.cs" />
     <Compile Include="Models\SolicitacaoAmizade.cs" />
+    <Compile Include="Models\TipoImpedimento.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
