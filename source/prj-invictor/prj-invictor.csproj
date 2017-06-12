@@ -241,20 +241,14 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-<<<<<<< HEAD
     <Compile Include="Models\ContaVinculada.cs" />
     <Compile Include="Models\Historico.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Impedimento.cs" />
-=======
-<<<<<<< HEAD
     <Compile Include="Controllers\CampanhaController.cs" />
     <Compile Include="Models\Campanha.cs" />
-=======
     <Compile Include="Models\Aptidao.cs" />
->>>>>>> 66814b30e1a2042629166d0d04f4eeb961353f2d
     <Compile Include="Models\IdentityModels.cs" />
->>>>>>> 2680e23730ad7806fd644cce419f67677e5abdac
     <Compile Include="Models\SolicitacaoAmizade.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
