@@ -5,7 +5,12 @@ using System.Web;
 
 namespace prj_invictor.Models
 {
-    public class Historico
+    public class TesteUsuario
     {
+        void main(string[] args)
+        {
+            
+        }
+
     }
 }
