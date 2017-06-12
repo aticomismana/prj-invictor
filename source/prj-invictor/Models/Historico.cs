@@ -7,5 +7,6 @@ namespace prj_invictor.Models
 {
     public class Historico
     {
+        
     }
 }

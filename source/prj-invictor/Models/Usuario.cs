@@ -52,12 +52,12 @@ namespace prj_invictor.Models
         {
 
 
-    }
-        public void exibirCadastroUsr()
+        }
+        public void exibirCadastroUsr(String nome, String sobrenome, String cpf, List<Impedimento> impedimentos)
         {
 
         }
-        public void consultarCadastroUsr()
+        public void consultarCadastroUsr(String email, String senha)
         {
 
         }
