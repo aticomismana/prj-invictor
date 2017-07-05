@@ -19,6 +19,7 @@ namespace prj_invictor.Models
 
         public Boolean verificarPeso(float peso)
         {
+            this.peso = peso;
             if(peso >= 50)
             {
                 return true;
@@ -29,6 +30,7 @@ namespace prj_invictor.Models
         }
         public Boolean verificarIdade(int idade)
         {
+            this.idade = idade;
             if(idade >= 16)
             {
                 return true;
@@ -43,6 +45,7 @@ namespace prj_invictor.Models
         {
             return false;
         }
+        
         public char verificarSexo()
         {
             return sexo;
@@ -53,11 +56,13 @@ namespace prj_invictor.Models
 
 
         }
-<<<<<<< HEAD
+
         public void exibirCadastroUsr(String nome, String sobrenome, String cpf, List<Impedimento> impedimentos)
-=======
+        {
+
+        }
+
         public void exibirCadastroUsr()
->>>>>>> 444b6a4cfe59d6b87879fe6d983d882afac96ce0
         {
 
         }
@@ -83,6 +88,9 @@ namespace prj_invictor.Models
             this.historico = new List<HistoricoDoacao>();
             this.impedimentos = new List<Impedimento>();
         }
+        public void CadastrarUsuario()
+        {
 
+        }
     }
 }
