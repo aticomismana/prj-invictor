@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    class Aptidao
+    class TempoImpedimento
     {
-        public bool apto { get; set; }
-
-        public bool VerificarAptidao(Usuario usuario)
+        public string Nome { get; set; }
+        public enum Natureza
         {
-            return true;
+            Temporario,
+            Definitivo
         }
     }
 }

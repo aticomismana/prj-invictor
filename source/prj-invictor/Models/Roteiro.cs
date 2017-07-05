@@ -1,25 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    public class Roteiro
+    class Roteiro
     {
         public string PosicaoInicial { get; set; }
         public string PosicaoFinal { get; set; }
         public string Distancia { get; set; }
 
-        public List buscarLocaisDoacao(Local localUsuario, List locais)
+        public bool buscarLocaisDoacao()
         {
 
-            return localUsuario;
+            return true;
         }
 
-        public Local criarRoteiro(string posicaoInicial, string posicaoFinal)
+        public bool criarRoteiro(string posicaoInicial, string posicaoFinal)
         {
-            return Local;
+            return true;
         }
     }
 }

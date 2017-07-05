@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    public class SolicitacaoAmizade
+    class SolicitacaoAmizade
     {
         public int User1 { get; set; }
         public int User2 { get; set; }

@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    public class Usuario
+    class Usuario
     {
         public String nome { get; set; }
         public String sobrenome { get; set; }
@@ -21,10 +22,11 @@ namespace prj_invictor.Models
         public Boolean verificarPeso(float peso)
         {
             this.peso = peso;
-            if(peso >= 50)
+            if (peso >= 50)
             {
                 return true;
-            }else
+            }
+            else
             {
                 return false;
             }
@@ -32,27 +34,28 @@ namespace prj_invictor.Models
         public Boolean verificarIdade(int idade)
         {
             this.idade = idade;
-            if(idade >= 16)
+            if (idade >= 16)
             {
                 return true;
-            }else
+            }
+            else
             {
                 return false;
             }
-            
+
         }
 
         public Boolean verificarCpf(String cpf)
         {
             return false;
         }
-        
+
         public char verificarSexo()
         {
             return sexo;
         }
 
-        public void atualizarUsuario(String nome, String sobrenome,List<Impedimento> impedimentos, float peso, int idade,char sexo)
+        public void atualizarUsuario(String nome, String sobrenome, List<Impedimento> impedimentos, float peso, int idade, char sexo)
         {
 
 
@@ -75,7 +78,7 @@ namespace prj_invictor.Models
         {
 
         }
-        public Usuario(String cpf , String nome, String sobrenome, List<Impedimento> impedimentos, float peso, DateTime nascimento, int idade, char sexo)
+        public Usuario(String cpf, String nome, String sobrenome, List<Impedimento> impedimentos, float peso, DateTime nascimento, int idade, char sexo)
         {
             this.cpf = cpf;
             this.nome = nome;

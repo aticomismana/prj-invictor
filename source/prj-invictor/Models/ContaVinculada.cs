@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    public class ContaVinculada
+    class ContaVinculada
     {
         protected String email { get; set; }
         protected String senha { get; set; }

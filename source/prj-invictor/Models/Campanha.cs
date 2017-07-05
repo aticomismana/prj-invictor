@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    public class CampanhaModel
+    class Campanha
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
@@ -12,11 +16,11 @@ namespace prj_invictor.Models
         public string DataPublicacao { get; set; }
 
 
-        public CampanhaModel()
+        public Campanha()
         {
         }
 
-        public CampanhaModel(int codigo, string local, string nome, string dataInicio, string dataFim, string dataPublicacao )
+        public Campanha(int codigo, string local, string nome, string dataInicio, string dataFim, string dataPublicacao)
         {
             this.Codigo = codigo;
             this.Nome = nome;
@@ -25,7 +29,5 @@ namespace prj_invictor.Models
             this.DataFim = dataFim;
             this.DataPublicacao = dataPublicacao;
         }
-
-
     }
 }
