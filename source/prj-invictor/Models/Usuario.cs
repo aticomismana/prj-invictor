@@ -16,6 +16,7 @@ namespace prj_invictor.Models
         public DateTime nascimento { get; set; }
         public char sexo { get; set; }
         public int idade { get; set; }
+        public Login login { get; set; }
 
         public Boolean verificarPeso(float peso)
         {
