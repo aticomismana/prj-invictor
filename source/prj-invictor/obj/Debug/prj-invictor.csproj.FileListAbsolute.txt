@@ -1,1 +1,7 @@
 C:\Users\aluno\Documents\C#\source\prj-invictor\bin\Debug\prj-invictor.exe.config
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\bin\Debug\prj-invictor.exe.config
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\bin\Debug\prj-invictor.exe
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\bin\Debug\prj-invictor.pdb
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\obj\Debug\prj-invictor.csprojResolveAssemblyReference.cache
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\obj\Debug\prj-invictor.exe
+C:\Users\Thiago\Documents\workspace\prj-invictor\source\prj-invictor\obj\Debug\prj-invictor.pdb
