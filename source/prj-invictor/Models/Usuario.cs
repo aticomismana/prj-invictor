@@ -52,9 +52,19 @@ namespace prj_invictor.Models
 
         }
 
-        public Boolean verificarCpf(String cpf)
+        public Boolean verificarCpf(String cpf, List<Usuario> usuarioLista)
         {
-            return false;
+            bool a = false;
+            int n = usuarioLista.Count;
+            for (int i = 0; i < n; i++) {
+                if (cpf == usuarioLista[i].cpf ){
+                    a =  true;
+                }
+                else {
+                    a =  false;
+                }
+            }
+            return a;
         }
 
         public bool verificarSexo()
@@ -81,7 +91,7 @@ namespace prj_invictor.Models
         {
 
         }
-        public Usuario()
+        public Usuario() 
         {
 
         }
