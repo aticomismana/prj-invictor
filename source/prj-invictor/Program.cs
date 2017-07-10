@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace prj_invictor
                 Console.WriteLine("[ 1 ] Cadastrar campanha");
                 Console.WriteLine("[ 2 ] Listar campanhas");
                 Console.WriteLine("[ 3 ] Apagar campanha");
+                Console.WriteLine("[ 5 ] Cadastrar impedimento");
                 Console.WriteLine("[ 0 ] Sair do Programa");
                 Console.WriteLine("-------------------------------------");
                 Console.Write("Digite uma opção: ");
@@ -50,6 +52,26 @@ namespace prj_invictor
                         campanha.GetAll();
                         campanha.Remove();
                         break;
+                    case 5:
+                        Console.WriteLine("Informe o tipo de impedimento: ");
+                        string tipoImpedimento = Console.ReadLine();
+                        Console.WriteLine("Informe a data (inicial ou única) de ocorrência: ");
+                        DateTime dataImpedimento = DateTime.Parse( Console.ReadLine() );
+
+                        //substituir esse usuario pelo da sessao
+                        Usuario usuario = new Usuario();
+                        //Usuario usuario = sessao.getUsuario();
+
+                        Impedimento impedimento = new Impedimento();
+                        if (!impedimento.VerificarImpedimentosExistente(usuario,
+                            tipoImpedimento, dataImpedimento) )
+                        {
+                            impedimento.cadastrarImpedimento(usuario,
+                            tipoImpedimento, dataImpedimento);
+                        } else
+                        {
+                            Console.WriteLine("Ops! Este impedimento já está cadastrado!");
+                        }
                     default:
                         SaiPrograma();
                         break;
