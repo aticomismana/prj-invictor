@@ -15,12 +15,17 @@ namespace prj_invictor
         {
             int opcao;
             Campanha campanha = new Campanha();
+            List<Usuario> usuarioLista = new List<Usuario>();
+            Sessao sessao;
             do
             {
+                Console.WriteLine("[ 7 ] Logar");
                 Console.WriteLine("[ 1 ] Cadastrar campanha");
                 Console.WriteLine("[ 2 ] Listar campanhas");
                 Console.WriteLine("[ 3 ] Apagar campanha");
                 Console.WriteLine("[ 5 ] Cadastrar impedimento");
+                Console.WriteLine("[ 6 ] Notificar aptidão");
+                Console.WriteLine("[ 4 ] Cadastrar Usuario");
                 Console.WriteLine("[ 0 ] Sair do Programa");
                 Console.WriteLine("-------------------------------------");
                 Console.Write("Digite uma opção: ");
@@ -72,6 +77,44 @@ namespace prj_invictor
                         {
                             Console.WriteLine("Ops! Este impedimento já está cadastrado!");
                         }
+                    case 6:
+
+                        //Usuario usr = Session.getUser();
+
+                        //usr.VerificarAptidao();
+                        //usr.historico.
+
+                    case 4:
+                        Console.WriteLine("Informe o nome do usuario: ");
+                        string nome = Console.ReadLine();
+                        Console.WriteLine("Informe o sobrenome do usuario");
+                        string sobrenome = Console.ReadLine();
+                        Console.WriteLine("Informe o CPF do usuario");
+                        string cpf = Console.ReadLine();
+                        Console.WriteLine("Informe o historico de doação do usuario");
+                        string historico = Console.ReadLine();
+                        Console.WriteLine("Informe o peso do usuario");
+                        float peso =  float.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe a data de nascimento do usuario");
+                        DateTime nascimento = DateTime.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe a idade do usuario");
+                        int idade =  int.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe o sexo do usuario");
+                        char sexo = char.Parse(Console.ReadLine());
+                        Console.WriteLine("Informe o login do usuario");
+                        string slogin =  Console.ReadLine();
+
+                        Usuario usuarioT = new Usuario(cpf,nome,sobrenome,null,peso,nascimento,idade,sexo);
+                        if(usuarioT.verificarCpf(cpf,usuarioLista) == false) {
+                            usuarioLista.Add(usuarioT);
+                        }
+                        break;
+
+                    case 7:
+                        Login login = new Login();
+                        Usuario user = new Usuario();
+                        sessao = login.criarSessao(user);
+                        break;
                     default:
                         SaiPrograma();
                         break;

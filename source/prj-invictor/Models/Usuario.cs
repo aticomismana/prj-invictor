@@ -11,7 +11,7 @@ namespace prj_invictor.Models
         public String nome { get; set; }
         public String sobrenome { get; set; }
         public String cpf { get; set; }
-        public List<HistoricoDoacao> historico;
+        public HistoricoDoacao historico;
         public List<Impedimento> impedimentos;
         public float peso { get; set; }
         public DateTime nascimento { get; set; }
@@ -19,6 +19,12 @@ namespace prj_invictor.Models
         public int idade { get; set; }
         public Login login { get; set; }
         public Aptidao aptidao;
+        public bool apto { get; set; }
+
+        public bool VerificarAptidao() {
+            this.apto = verificarPeso(peso) && verificarIdade(idade) && verificarSexo();
+            return this.apto;
+        }
 
         public Boolean verificarPeso(float peso)
         {
@@ -46,14 +52,24 @@ namespace prj_invictor.Models
 
         }
 
-        public Boolean verificarCpf(String cpf)
+        public Boolean verificarCpf(String cpf, List<Usuario> usuarioLista)
         {
-            return false;
+            bool a = false;
+            int n = usuarioLista.Count;
+            for (int i = 0; i < n; i++) {
+                if (cpf == usuarioLista[i].cpf ){
+                    a =  true;
+                }
+                else {
+                    a =  false;
+                }
+            }
+            return a;
         }
 
-        public char verificarSexo()
+        public bool verificarSexo()
         {
-            return sexo;
+            return true;
         }
 
         public void atualizarUsuario(String nome, String sobrenome, List<Impedimento> impedimentos, float peso, int idade, char sexo)
@@ -75,7 +91,7 @@ namespace prj_invictor.Models
         {
 
         }
-        public Usuario()
+        public Usuario() 
         {
 
         }

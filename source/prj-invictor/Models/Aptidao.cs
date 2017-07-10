@@ -8,11 +8,7 @@ namespace prj_invictor.Models
 {
     class Aptidao
     {
-        public bool apto { get; set; }
-
-        public bool VerificarAptidao(Usuario usuario)
-        {
-            return true;
-        }
+   
+        
     }
 }
