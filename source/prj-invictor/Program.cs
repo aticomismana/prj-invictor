@@ -19,6 +19,7 @@ namespace prj_invictor
                 Console.WriteLine("[ 1 ] Cadastrar campanha");
                 Console.WriteLine("[ 2 ] Listar campanhas");
                 Console.WriteLine("[ 3 ] Apagar campanha");
+                Console.WriteLine("[ 4 ] Buscar campanha");
                 Console.WriteLine("[ 0 ] Sair do Programa");
                 Console.WriteLine("-------------------------------------");
                 Console.Write("Digite uma opção: ");
@@ -50,6 +51,8 @@ namespace prj_invictor
                         campanha.GetAll();
                         campanha.Remove();
                         break;
+                    case 4:
+                        BuscarCampanha();
                     default:
                         SaiPrograma();
                         break;
