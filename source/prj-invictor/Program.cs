@@ -14,11 +14,14 @@ namespace prj_invictor
         {
             int opcao;
             Campanha campanha = new Campanha();
+
+
             do
             {
                 Console.WriteLine("[ 1 ] Cadastrar campanha");
                 Console.WriteLine("[ 2 ] Listar campanhas");
                 Console.WriteLine("[ 3 ] Apagar campanha");
+                Console.WriteLine("[ 6 ] Notificar aptidão");
                 Console.WriteLine("[ 0 ] Sair do Programa");
                 Console.WriteLine("-------------------------------------");
                 Console.Write("Digite uma opção: ");
@@ -49,6 +52,17 @@ namespace prj_invictor
                     case 3:
                         campanha.GetAll();
                         campanha.Remove();
+                        break;
+
+                    case 6:
+
+                        Usuario usr = Session.getUser();
+
+                        usr.VerificarAptidao();
+
+                        usr.historico.
+
+
                         break;
                     default:
                         SaiPrograma();

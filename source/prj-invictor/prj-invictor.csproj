@@ -46,9 +46,11 @@
     <Compile Include="Models\Aptidao.cs" />
     <Compile Include="Models\Campanha.cs" />
     <Compile Include="Models\ContaVinculada.cs" />
+    <Compile Include="Models\Doacao.cs" />
     <Compile Include="Models\HistoricoDoacao.cs" />
     <Compile Include="Models\Impedimento.cs" />
     <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\PostoDoacao.cs" />
     <Compile Include="Models\Roteiro.cs" />
     <Compile Include="Models\SolicitacaoAmizade.cs" />
     <Compile Include="Models\TempoImpedimento.cs" />
@@ -58,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

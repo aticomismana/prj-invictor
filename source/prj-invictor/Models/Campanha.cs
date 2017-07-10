@@ -25,7 +25,7 @@ namespace prj_invictor.Models
             {
                 Console.WriteLine();
                 Console.WriteLine("==============================================================================");
-                Console.WriteLine("Não existe nenhuma campanha cadastrada");
+                Console.WriteLine("Não existe campanha cadastrada");
                 Console.WriteLine("==============================================================================");
             }
 
