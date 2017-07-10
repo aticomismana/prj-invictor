@@ -18,6 +18,7 @@ namespace prj_invictor.Models
         public char sexo { get; set; }
         public int idade { get; set; }
         public Login login { get; set; }
+        public Aptidao aptidao;
 
         public Boolean verificarPeso(float peso)
         {

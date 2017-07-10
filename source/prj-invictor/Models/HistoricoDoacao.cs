@@ -8,5 +8,6 @@ namespace prj_invictor.Models
 {
     class HistoricoDoacao
     {
+        private List<Doacao> doacoes;
     }
 }
