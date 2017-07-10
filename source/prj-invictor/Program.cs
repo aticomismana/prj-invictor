@@ -15,9 +15,10 @@ namespace prj_invictor
             int opcao;
             Campanha campanha = new Campanha();
             List<Usuario> usuarioLista = new List<Usuario>();
-
+            Sessao sessao;
             do
             {
+                Console.WriteLine("[ 7 ] Logar");
                 Console.WriteLine("[ 1 ] Cadastrar campanha");
                 Console.WriteLine("[ 2 ] Listar campanhas");
                 Console.WriteLine("[ 3 ] Apagar campanha");
@@ -72,7 +73,7 @@ namespace prj_invictor
                         Console.WriteLine("Informe o sexo do usuario");
                         char sexo = char.Parse(Console.ReadLine());
                         Console.WriteLine("Informe o login do usuario");
-                        string login =  Console.ReadLine();
+                        string slogin =  Console.ReadLine();
 
                         Usuario usuario = new Usuario(cpf,nome,sobrenome,null,peso,nascimento,idade,sexo);
                         if(usuario.verificarCpf(cpf,usuarioLista) == false) {
@@ -80,6 +81,11 @@ namespace prj_invictor
                         }
                         break;
 
+                    case 7:
+                        Login login = new Login();
+                        Usuario user = new Usuario();
+                        sessao = login.criarSessao(user);
+                        break;
                     default:
                         SaiPrograma();
                         break;

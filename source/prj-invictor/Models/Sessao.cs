@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace prj_invictor.Models
 {
-    class HistoricoDoacao
+    class Sessao
     {
-        private List<Doacao> doacoes;
+        public Usuario Usuario { get; set; }
     }
 }

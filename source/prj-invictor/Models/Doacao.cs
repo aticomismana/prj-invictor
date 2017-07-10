@@ -11,45 +11,31 @@ namespace prj_invictor.Models
        
         List<Doacao> lista = new List<Doacao>();
 
-        public string Codigo { get; set; }
-        public DateTime DataDoacao { get; set; }
-	
-	public void GetAll()
-	{
-	     if(lista.Count <= 0) 
-	     {
-		return 0;
-	     }
+        public string Codigo { get; set;}
+		public DateTime data {get; set;}
+        public string local { get; set; }
+        public string tipoDoacao { get; set; }
+  
 
-	 foreach (var campanha in lista)
-         {
-          	return (Usuario.(doacao.DataDoacao));
-         }
-}
 
-	public void Save(string codigo, DateTime dataDoacao)
+        public void GetAll()
         {
-            Random rdn = new Random();
+            if(lista.Count <= 0)
+            {
+                Console.WriteLine();
+                Console.WriteLine("==============================================================================");
+                Console.WriteLine("Não existe nenhuma doação cadastrada");
+                Console.WriteLine("==============================================================================");
+            }
 
-            lista.Add( new Doacao() {
-                Codigo = rdn.Next(0, 2000).ToString(),
-                DataDoacao = dataDoacao,
-            };
+            foreach (var doacao in lista)
+            {
+                Console.WriteLine();
+                Console.WriteLine("==============================================================================");
+                Console.WriteLine("Codigo da doacao: {0}", doacao.Codigo);
+                Console.WriteLine("Nome da doação {0}", doacao.Doacao);
+                Console.WriteLine("Data da doacao: {0}", doacao.Data);
+                Console.WriteLine("Tipo Doacao: {0}" ,doacao.tipoDoacao);
+                Console.WriteLine("==============================================================================");
+            }
         }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
