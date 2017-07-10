@@ -40,6 +40,27 @@ namespace prj_invictor.Models
                 Console.WriteLine("==============================================================================");
             }
         }
+        
+        public void BuscarCampanha()
+        {			
+		
+            public string busca;
+
+            Console.WriteLine("Digite o codigo da campanha");
+            busca = Console.ReadLine();
+
+            foreach (var campanha in lista){
+              if(campanha.codigo == busca)   {
+                    Console.WriteLine();
+                    Console.WriteLine("==============================================================================");
+                    Console.WriteLine("Codigo da campanha: {0}", campanha.Codigo);
+                    Console.WriteLine("Nome da campanha {0}", campanha.Nome);
+                    Console.WriteLine("Data de inicio: {0}", campanha.DataInicio);
+                    Console.WriteLine("Data final {0}", campanha.DataFim);
+                    Console.WriteLine("==============================================================================");
+                }
+            }
+        }
 
         public void Save(string local, string nome, string dataInicio, string dataFim, DateTime dataPublicacao)
         {
