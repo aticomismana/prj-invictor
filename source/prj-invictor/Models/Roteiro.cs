@@ -11,6 +11,7 @@ namespace prj_invictor.Models
         public string PosicaoInicial { get; set; }
         public string PosicaoFinal { get; set; }
         public string Distancia { get; set; }
+        public PostoDoacao PostoDoacao { get; set; }
 
         public bool buscarLocaisDoacao()
         {
@@ -22,5 +23,7 @@ namespace prj_invictor.Models
         {
             return true;
         }
+
+
     }
 }
